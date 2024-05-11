@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Paytone+One&family=Rubik+Mono+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Encode Sans Condensed';
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7C22B4;
+    padding: 20px 30px;
+}
+
+nav .logo{
+    color: white;
+
+}
+
+nav .navbar-list a{
+    color: white;
+    margin-left: 10px;
+}
+
+.main-page{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    height: 85vh;
+    align-items:  center;
+}
+
+.main-page img{
+    width: 200px;
+    height: 250px;
+}
+
+.Detail a{
+    display: inline-block;
+    background-color: #7C22B4;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 5px 10px 18px rgb(202, 57, 255);
+}
